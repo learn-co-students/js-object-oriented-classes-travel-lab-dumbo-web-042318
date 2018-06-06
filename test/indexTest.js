@@ -12,7 +12,7 @@ describe('driver', function() {
     })
 
     it('sets the driver startDate as a date object', function() {
-      expect(driver.startDate).to.be.instanceof(Date)
+      expect(driver.startDate()).to.be.instanceof(Date)
     })
   })
 
